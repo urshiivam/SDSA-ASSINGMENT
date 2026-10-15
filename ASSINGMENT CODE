@@ -7,13 +7,10 @@ const sqlite3 = require('sqlite3').verbose();
 const bodyParser = require('body-parser');
 
 
-
 const app = express();
  const port = 3000;
 
-
 app.use(bodyParser.json());
-
 
 
 const db = new sqlite3.Database('./patient_management.db', (err) => {
