@@ -88,33 +88,33 @@ This streamlined flow reduces administrative overhead and enhances the patient e
 
 
 
-     60%
+♤    60%
 Efficiency Gain
 
 Reduction in administrative workload
 
 
 
-     50%
+♤    50%
 Wait Time Cut
 
 Decreaseinaveragepatientwait times
 
 
 
-     99.8%
+♤   99.8%
 Data Accuracy
 
 Reduction in medical record errors
 
 
 
-     50%
+♤    50%
 Wait Time Cut
 
 Decreaseinaveragepatientwait times
 
-      25%
+♤    25%
 Revenue Uplift
 
 Improvementinbillingaccuracyand collections
@@ -129,7 +129,7 @@ Improvementinbillingaccuracyand collections
 
 
 
-             ! CONCLUSION !
+              ! CONCLUSION !
 
 
 ThisHospital Patient Management System provides a comprehensive digital solution to streamline patient care,
