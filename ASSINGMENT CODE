@@ -1,0 +1,55 @@
+// server.js (excerpt)
+
+const express = require('express');
+
+const sqlite3 = require('sqlite3').verbose();
+
+const bodyParser = require('body-parser');
+
+const app = express(); const port = 3000;
+
+app.use(bodyParser.json());
+
+// Initialize SQLite database and create patients table
+
+const db = new sqlite3.Database('./patient_management.db', (err) => { if (err) console.error(err.message);
+
+console.log('Connected to the patient management database.');
+
+db.run('CREATE TABLE IF NOT EXISTS patients (
+
+id INTEGER PRIMARY KEY AUTOINCREMENT,
+
+firstName TEXT NOT NULL,
+
+lastName TEXT NOT NULL.
+
+dob TEXT NOT NULL,
+
+gender TEXT,
+
+contact TEXT UNIQUE NOT NULL
+
+4/7
+
+});
+
+// Route to register a new patient app.post('/api/patients', (req, res) => { const { firstName, lastName, dob, gender, contact } = req.body;
+
+}
+
+if (!firstName || !lastName || !dob || !contact) { return res.status(400).json({ error: 'Missing required patient information.' });
+
+const sql = `INSERT INTO patients (firstName, lastName, dob, gender, contact) VALUES (?, ?, ?, ?, ?)`;
+
+db.run(sql, [firstName, lastName, dob, gender, contact], function(err) { if (err) {
+
+return res.status(500).json({ error: err.message });
+
+res.status(201).json({ message: 'Patient registered successfully.', patientld:
+
+this.lastID });
+
+app.listen(port, () => {
+
+console.log('Server running on port ${port}`);
