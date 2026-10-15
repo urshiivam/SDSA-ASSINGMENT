@@ -86,6 +86,8 @@ This streamlined flow reduces administrative overhead and enhances the patient e
 
           ! IMPACT AND & BENEFITS !
 
+
+
      60%
 Efficiency Gain
 
