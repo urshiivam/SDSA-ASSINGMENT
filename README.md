@@ -1,6 +1,6 @@
 HOSPITAL PATIENT MANAGEMENT  SYSTEM
 
-             ! OUR OBJECTIVE !
+              ! OUR OBJECTIVE !
 
 Streamlining patient care through intelligent digital solutions
 
