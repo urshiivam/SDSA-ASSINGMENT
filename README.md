@@ -96,9 +96,9 @@ Reduction in administrative workload
 
 
 ♤    50%
-Wait Time Cut
+Waiting Time Cut
 
-Decreaseinaveragepatientwait times
+Decrease in average patient waiting times
 
 
 
@@ -108,11 +108,6 @@ Data Accuracy
 Reduction in medical record errors
 
 
-
-♤    50%
-Wait Time Cut
-
-Decreaseinaveragepatientwait times
 
 ♤    25%
 Revenue Uplift
