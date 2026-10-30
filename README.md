@@ -112,7 +112,7 @@ Reduction in medical record errors
 ♤    25%
 Revenue Uplift
 
-Improvementinbillingaccuracyand collections
+Improvement in billing accuracy and collections
 
 
 ☆  Staff Satisfaction: More time for direct   patient care, significantly less paperwork
